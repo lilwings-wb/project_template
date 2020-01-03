@@ -1,0 +1,17 @@
+/* Подключение библиотек */
+@import "libs/normalize/normalize";
+/* --- */
+
+/* Подключение рабочих файлов */
+@import "mixins";
+@import "fonts";
+@import "extends";
+@import "global";
+/* --- */
+
+/* Подключение BEM блоков */
+@import "layouts/header";
+@import "layouts/footer";
+// ---
+@import "common.blocks/section/section";
+/* --- */
